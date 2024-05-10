@@ -2,6 +2,11 @@
  * {
      margin: 0px;
      padding: 0px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .container{
+    padding: 0px 90px;
  }
 
  .navigation {
@@ -71,6 +76,10 @@
      width: 750px;
      border: 1px solid;
      border-radius: 12px;
+     outline: none;
+     padding-left: 15px;
+     font-size: 17px;
+     font-weight: lighter;
  }
 
  .GetAdmission a {
@@ -209,12 +218,9 @@
 
  .whycodeit iframe {
      padding: 30px;
+     padding-left: 80px;
  }
 
- .whycodeit img {
-     padding: 30px 95px;
-     align-items: center;
- }
 
  .why {
      padding: 40px;
@@ -316,24 +322,25 @@
 
  /* page 4 section start */
  .plate {
-     background-color: rgb(255, 196, 196);
+     background-color: #FCECE9;
  }
 
- .plate .container {
+ .plate .platekoo {
      text-align: center;
-     padding: 30px;
+     padding: 50px 70px;
  }
 
  .plate h3 {
      font-size: 32px;
-     color: rgb(206, 43, 2);
+     color: #DD4A2A;
      font-family: Arial, Helvetica, sans-serif;
  }
 
  .plate p {
      font-size: 17px;
      color: rgb(61, 61, 61);
-     padding: 18px;
+     padding: 30px;
+     padding-left: 60px;
      font-family: Arial, Helvetica, sans-serif;
  }
 
@@ -342,7 +349,7 @@
      font-family: Arial, Helvetica, sans-serif;
      text-decoration: none;
      color: white;
-     background-color: rgb(255, 51, 0);
+     background-color: #DD4A2A;
      padding: 10px 80px;
      border-radius: 20px;
  }
@@ -353,7 +360,7 @@
 
  /* page 5 section start */
  .partner {
-     padding: 30px;
+     padding:30px 70px;
  }
 
  .partner .container {
@@ -384,17 +391,18 @@
 
  /* page 6 section start */
  .plate2 {
-    background-color: rgb(156, 182, 212);
+    background-color: #E9ECF3;
 }
 
 .plate2 .plate2ko{
     text-align: center;
-    padding: 30px;
+    padding:50px 70px;
+    padding-left: 120px;
 }
 
 .plate2 h3 {
     font-size: 32px;
-    color: rgb(39, 92, 206);
+    color: #264788;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -410,8 +418,80 @@
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: white;
-    background-color: rgb(39, 92, 206);
+    background-color: #264788;
     padding: 10px 56px;
     border-radius: 20px;
 }
  /* page 6 section end */
+
+ 
+
+ /* bottom section start */
+ .connn{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+ }
+
+ .bottomho{
+    padding: 60px;
+    padding-right: 120px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+ }
+
+ .bottomho a{
+    text-decoration: none;
+ }
+
+ .bottomho1 img{
+    padding-left: 80px;
+ }
+
+ .bottomho1 a{
+    color: black;
+    text-decoration: none;
+ }
+
+ .bottomho2{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+ }
+
+ .bottomho2 a{
+    color: black;
+ }
+
+ .bottomho3{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+ }
+
+ .bottomho4{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+ }
+
+
+ .conicon{
+    display: flex;
+    gap: 8px;
+ }
+
+ .conicon a{
+    font-size: 20px;
+ }
+
+
+ .lastt-container{
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+   padding: 20px 30px;
+ }
+
+ /* bottom section end */
